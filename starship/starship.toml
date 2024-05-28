@@ -32,11 +32,6 @@ disabled = false
 style = "bg:#9A348E"
 disabled = true # Disabled by default
 
-# Homeディレクトリの場合、プロンプトを非表示にする
-[root_directory]
-format = "[$style](bold red)"
-style = "hidden"
-
 [directory]
 style = "bg:#DA627D"
 format = "[ $path ]($style)"
